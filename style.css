@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Color scheme */
+
+:root {
+  --black: #000 ;
+  --skyblue: #8ef2ff;
+  --white: #ffff;
+
+}
+
+.head-container {
+  border: 1px solid black;
+  background-color: black;
+  text-align: center;
+}
+
+.anouncement-container {
+  margin-top: 10px;
+}
+
+.anouncement-text {
+  color: #8ef2ff;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(10, 10, 7, 0.5), rgba(10, 10, 7, 0.5)),
+    url(/images/16469298831462.jpeg);
+  background-position: center;
+  background-size: contain;
+  padding: 5% 5%;
+}
+
+.banner-inner-container {
+  margin: 0% 15%;
+  padding: 5% 5%;
+  border-radius: 5px;
+  border: 1px solid ;
+  /* width: 40%; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.icon-container{
+    margin-bottom: 10px;
+}
+
+.wallet-icon {
+    color: #8ef2ff;
+    font-size: 60px;
+}
+
+.banner-tittle {
+  color: white;
+}
+
+.banner-button-container {
+  margin-top: 2em;
+}
+
+.banner-heading-button {
+  border: 1px solid whitesmoke;
+  padding: 7px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: var(--black);
+  background-color: whitesmoke;
+  font-size: 20px;
+}
+
+
+/*  */
+
+.description-container{
+    text-align: center;
+    padding: 4% 10%;
+    line-height: 2;
+}
+
+.description-text{
+    padding: 0% 6% ;
+}
+
+
+
+
+
+/* Mobile */
+
+@media screen  and (max-width:900px){
+    .banner-inner-container{
+        text-align: center;
+    }
+    
+}
