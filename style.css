@@ -7,17 +7,14 @@
 /* Color scheme */
 
 :root {
-  --black: #000 ;
+  --black: #000;
   --skyblue: #8ef2ff;
   --white: #ffff;
-
 }
 
-.background{
-    background: whitesmoke;
+.background {
+  background: whitesmoke;
 }
-
-
 
 .head-container {
   border: 1px solid black;
@@ -45,18 +42,23 @@
   margin: 0% 15%;
   padding: 5% 5%;
   border-radius: 5px;
-  border: 1px solid ;
-  /* width: 40%; */
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border: 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.icon-container{
-    margin-bottom: 10px;
+.icon-container {
+  margin-bottom: 2em;
 }
 
 .wallet-icon {
-    color: #8ef2ff;
-    font-size: 60px;
+  color: #8ef2ff;
+  font-size: 60px;
+}
+
+.banner-title-container {
+  margin-top: 1em;
 }
 
 .banner-tittle {
@@ -68,101 +70,108 @@
 }
 
 .banner-heading-button {
-  border: 1px solid whitesmoke;
-  padding: 7px 15px;
-  border-radius: 20px;
+  border: 1px solid var(--skyblue);
+  padding: 2% 5%;
+  border-radius: 2em;
   text-decoration: none;
   color: var(--black);
   background-color: whitesmoke;
   font-size: 20px;
 }
 
-
 /*  */
 
-.description-container{
-    text-align: center;
-    padding: 4% 10%;
-    line-height: 2;
+.description-container {
+  text-align: center;
+  padding: 4% 10%;
+  line-height: 2;
 }
 
-.description-text{
-    padding: 0% 6% ;
+.description-text {
+  padding: 0% 6%;
+}
+
+/* Columns */
+
+.box-main-container {
+  text-align: center;
+  padding: 5% 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  border: 1px solid;
+  margin: 8px;
+  background-color: var(--skyblue);
+  padding: 5% 7%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 7px;
+  /* width: 40%; */
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(0, 152, 155, 1) 0.1%,
+    rgba(0, 94, 120, 1) 94.2%
+  );
+}
+
+.box-title-container {
+  margin-top: 2em;
+}
+
+.box-button-container {
+  margin-top: 2em;
+}
+
+.box-button {
+  border: 1px solid black;
+  padding: 8px 20px;
+  color: black;
+  border-radius: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#sec-row-box-2{
+  padding: 0% 10%;
+}
+
+#sec-row-box-3{
+  padding: 0% 10%;
+}
+
+.footer-main-container {
+  padding: 10% 8%;
+  text-align: center;
+  margin-top: 7em;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(0, 152, 155, 1) 0.1%,
+    rgba(0, 94, 120, 1) 94.2%
+  );
+}
+
+.footer-column-2{
+    margin-top: 3%;
 }
 
 
-
-/* cols */
-
-.box-main-container{
-    text-align: center;
-    padding: 5% 3%;
-    display: flex;
-    justify-content: center;
-
-
-
-    
+.footer-text-container{
+    padding: 0% 2%;
+    margin-top: 4%;
 }
-
-.box{
-    border: 1px solid ;
-    margin: 6px;
-    background-color: var(--skyblue);
-    padding: 5% 7%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 7px;
-    /* width: 40%; */
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
-    
-
-
-}
-
-.box-title-container{
-    margin-top: 2em;
-   
-}
-
-
-.box-button-container{
-    margin-top: 2em;
-    
-
-}
-
-
-.box-button{
-     border: 1px solid black ;
-     padding: 8px 20px;
-     color: black;
-     border-radius: 20px;
-     font-size: 20px;
-     text-decoration: none;
-}
-
-
-.footer-main-container{
-    padding: 10% 5%;
-    margin-top: 7em;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
-}
-
-
-
-
-
 
 
 
 /* Mobile */
 
-@media screen  and (max-width:900px){
-    .banner-inner-container{
-        text-align: center;
-    }
+@media screen and (max-width: 900px) {
+  .banner-inner-container {
+    text-align: center;
+    padding: 5% 8%;
+  }
 
-    .box-main-container{
-        flex-direction: column;
-    }
+  .box-main-container {
+    flex-direction: column;
+  }
 }
