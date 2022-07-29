@@ -98,18 +98,16 @@
     font-size: 10px;
     text-decoration: none;
     display: block;
-    color: white;
-    border: 1px solid black;
+    color: black;
+
     border-radius: 25px;
-    
     padding: 5px ;
     margin-top: 10px;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
-    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    
   }
 
   .column-1-title:hover{
-    color: black;
+    
   }
 
 
