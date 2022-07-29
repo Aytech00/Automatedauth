@@ -3,18 +3,36 @@
   padding: 0;
 }
 
-body{
+.background{
+  background: whitesmoke;
  
 }
 .logo {
   width: 70px;
 }
 
+#nav-bg{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
+
+
+}
+
+#menu-item-1{
+  color: black;
+}
+#menu-item-2{
+  color: black;
+}
+#menu-item-3{
+  color: black;
+}
+
+
 /* First section */
 #Banner {
   text-align: center;
   padding: 6% 10%;
-  background-color: black;
+  
   
 }
 
@@ -26,12 +44,12 @@ body{
 
 .Heading {
   margin-bottom: 7px;
-  color: #3AB0FF;
+  color: rgba(0, 152, 155, 1);
  
 }
 
 .sub-heading{
-  color: #3AB0FF;
+  color: rgba(0, 152, 155, 1);
   font-size: 15px;
 }
 
@@ -39,14 +57,14 @@ body{
 .Wallet-connect {
   padding: 6% 18%;
   text-align: center;
-  background-color: black;
+
 }
 
 /* Wallet logo */
 #images {
   padding: 5% 10%;
   text-align: center;
-  background-color: black;
+
   
 }
 
@@ -55,8 +73,9 @@ body{
   /* padding-bottom: 4px; */
   /* border: 1px solid black;
     border-radius: 15px; */
-    box-shadow: 1px 1px 2px white;
+  
     padding: 3%;
+    border-radius: 20px;
 }
 
 .column {
@@ -67,7 +86,10 @@ body{
 }
 
 #footer{
-  background-color: black;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
+
+  
+  
 }
 
 @media screen and (max-width: 1000px) {
@@ -77,11 +99,20 @@ body{
     text-decoration: none;
     display: block;
     color: white;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding:4px ;
+    border: 1px solid black;
+    border-radius: 25px;
+    
+    padding: 5px ;
     margin-top: 10px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   }
+
+  .column-1-title:hover{
+    color: black;
+  }
+
+
   .column {
     margin-bottom: 40px;
   }
@@ -96,7 +127,8 @@ body{
 /* Footer  */
 #footer {
   background-color: whitesmoke;
-  padding: 4% 2%;
+  padding: 4%;
+  
 }
 #footer p{
   text-align: center;
