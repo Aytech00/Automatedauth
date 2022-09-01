@@ -18,7 +18,8 @@
 
 .head-container {
   border: 1px solid black;
-  background-color: black;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
   text-align: center;
 }
 
@@ -26,13 +27,60 @@
   margin-top: 10px;
 }
 
+.anouncement-container{
+  height: 50px; 
+  overflow: hidden;
+  position: relative;
+}
+.anouncement-container .anouncement-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+
+    /* Starting position */
+       -moz-transform:translateX(100%);
+       -webkit-transform:translateX(100%);  
+       transform:translateX(100%);
+
+ /* Apply animation to this element */  
+       -moz-animation: anouncement-container 15s linear infinite;
+       -webkit-animation: anouncement-container 15s linear infinite;
+       animation: anouncement-container 15s linear infinite;
+}
+
+/* Move it (define the animation) */
+      @-moz-keyframes anouncement-container {
+       0%   { -moz-transform: translateX(100%); }
+       100% { -moz-transform: translateX(-100%); }
+      }
+      @-webkit-keyframes anouncement-container {
+       0%   { -webkit-transform: translateX(100%); }
+       100% { -webkit-transform: translateX(-100%); }
+      }
+      @keyframes anouncement-container {
+       0%   { 
+       -moz-transform: translateX(100%); /* Firefox bug fix */
+       -webkit-transform: translateX(100%); /* Firefox bug fix */
+       transform: translateX(100%);         
+       }
+       100% { 
+       -moz-transform: translateX(-100%); /* Firefox bug fix */
+       -webkit-transform: translateX(-100%); /* Firefox bug fix */
+       transform: translateX(-100%); 
+       }
+      }
+    
+
 .anouncement-text {
-  color: #8ef2ff;
+  color: var(--black);
 }
 
 .banner {
   background-image: linear-gradient(rgba(10, 10, 7, 0.5), rgba(10, 10, 7, 0.5)),
-    url(/images/16469298831462.jpeg);
+    url(/images/The_other_side_of_the_coin_Blockchain_d1e1a82d78.jpg);
   background-position: center;
   background-size: contain;
   padding: 5% 5%;
@@ -53,7 +101,7 @@
 }
 
 .wallet-icon {
-  color: #8ef2ff;
+  color: orange;
   font-size: 60px;
 }
 
@@ -62,7 +110,7 @@
 }
 
 .banner-tittle {
-  color: white;
+  color: orange;
 }
 
 .banner-button-container {
@@ -70,18 +118,19 @@
 }
 
 .banner-heading-button {
-  border: 1px solid var(--white);
-  padding: 3% 5%;
+  border: 1px solid orange;
+  padding: 8px 15px;
   border-radius: 2em;
   text-decoration: none;
-  color: var(--white);
-  /* background-color: whitesmoke; */
-  font-size: 20px;
+  color: orange;
+  font-size: 18px;
+  transition: all 250ms ease-in-out;
 }
 
 .banner-heading-button:hover{
   background-color: whitesmoke;
   color: var(--black);
+  border: 1px solid whitesmoke;
 
 }
 
@@ -114,11 +163,8 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 7px;
   /* width: 40%; */
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(0, 152, 155, 1) 0.1%,
-    rgba(0, 94, 120, 1) 94.2%
-  );
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 .box-title-container {
@@ -150,11 +196,8 @@
   padding: 10% 8%;
   text-align: center;
   margin-top: 7em;
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(0, 152, 155, 1) 0.1%,
-    rgba(0, 94, 120, 1) 94.2%
-  );
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 .footer-column-2{
@@ -163,8 +206,8 @@
 
 
 .footer-text-container{
-    padding: 0% 2%;
-    margin-top: 4%;
+    
+  padding: 4%;
 }
 
 
@@ -185,3 +228,10 @@
     flex-direction: column;
   }
 }
+
+
+
+
+
+/* Top bar scroll */
+
