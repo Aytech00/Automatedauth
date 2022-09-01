@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .background{
@@ -12,19 +13,20 @@
 }
 
 #nav-bg{
-  background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background: rgb(22,33,62);
+  background: linear-gradient(0deg, rgba(22,33,62,1) 0%, rgba(233,69,96,1) 93%);
+  padding: 3% ;
 
 }
 
 #menu-item-1{
-  color: black;
+  color: whitesmoke;
 }
 #menu-item-2{
-  color: black;
+  color: whitesmoke;
 }
 #menu-item-3{
-  color: black;
+  color: whitesmoke;
 }
 
 
@@ -86,8 +88,8 @@
 }
 
 #footer{
-  background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background: rgb(22,33,62);
+  background: linear-gradient(0deg, rgba(22,33,62,1) 0%, rgba(233,69,96,1) 93%);
   
   
 }

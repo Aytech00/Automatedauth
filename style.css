@@ -10,6 +10,7 @@
   --black: #000;
   --skyblue: #8ef2ff;
   --white: #ffff;
+  --dark: #16213E;
 }
 
 .background {
@@ -18,8 +19,7 @@
 
 .head-container {
   border: 1px solid black;
-  background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background-color: var(--dark);
   text-align: center;
 }
 
@@ -46,9 +46,9 @@
        transform:translateX(100%);
 
  /* Apply animation to this element */  
-       -moz-animation: anouncement-container 15s linear infinite;
-       -webkit-animation: anouncement-container 15s linear infinite;
-       animation: anouncement-container 15s linear infinite;
+       -moz-animation: anouncement-container 10s linear infinite;
+       -webkit-animation: anouncement-container 10s linear infinite;
+       animation: anouncement-container 10s linear infinite;
 }
 
 /* Move it (define the animation) */
@@ -75,11 +75,11 @@
     
 
 .anouncement-text {
-  color: var(--black);
+  color: var(--white);
 }
 
 .banner {
-  background-image: linear-gradient(rgba(10, 10, 7, 0.5), rgba(10, 10, 7, 0.5)),
+  background-image: linear-gradient(rgba(10, 10, 7, 0.7), rgba(10, 10, 7, 0.7)),
     url(/images/The_other_side_of_the_coin_Blockchain_d1e1a82d78.jpg);
   background-position: center;
   background-size: contain;
@@ -101,7 +101,7 @@
 }
 
 .wallet-icon {
-  color: orange;
+  color: var(--white);
   font-size: 60px;
 }
 
@@ -110,7 +110,7 @@
 }
 
 .banner-tittle {
-  color: orange;
+  color: var(--white);
 }
 
 .banner-button-container {
@@ -118,11 +118,11 @@
 }
 
 .banner-heading-button {
-  border: 1px solid orange;
+  border: 1px solid var(--white);
   padding: 8px 15px;
   border-radius: 2em;
   text-decoration: none;
-  color: orange;
+  color: var(--white);
   font-size: 18px;
   transition: all 250ms ease-in-out;
 }
@@ -158,13 +158,11 @@
 .box {
   border: 1px solid;
   margin: 8px;
-  background-color: var(--skyblue);
   padding: 5% 7%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 7px;
-  /* width: 40%; */
-  background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background: rgb(22,33,62);
+  background: linear-gradient(0deg, rgba(22,33,62,1) 0%, rgba(233,69,96,1) 93%);
 }
 
 .box-title-container {
@@ -176,9 +174,9 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
 }
 
 .box-button {
-  border: 1px solid black;
+  border: 1px solid var(--white);
   padding: 8px 20px;
-  color: black;
+  color: var(--white);
   border-radius: 20px;
   font-size: 20px;
   text-decoration: none;
@@ -196,8 +194,9 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
   padding: 10% 8%;
   text-align: center;
   margin-top: 7em;
-  background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background: rgb(22,33,62);
+  background: linear-gradient(0deg, rgba(22,33,62,1) 0%, rgba(233,69,96,1) 93%);
+  color: var(--white);
 }
 
 .footer-column-2{
@@ -208,6 +207,7 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
 .footer-text-container{
     
   padding: 4%;
+  color: var(--white);
 }
 
 
