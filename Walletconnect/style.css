@@ -14,7 +14,6 @@
 
 #nav-bg{
   background: rgb(22,33,62);
-  background: linear-gradient(0deg, rgba(22,33,62,1) 0%, rgba(233,69,96,1) 93%);
   padding: 3% ;
 
 }
@@ -87,12 +86,7 @@
   text-decoration: none;
 }
 
-#footer{
-  background: rgb(22,33,62);
-  background: linear-gradient(0deg, rgba(22,33,62,1) 0%, rgba(233,69,96,1) 93%);
-  
-  
-}
+
 
 @media screen and (max-width: 1000px) {
   .column-1-title {
@@ -126,7 +120,7 @@
 
 /* Footer  */
 #footer {
-  background-color: whitesmoke;
+  background-color: white;
   padding: 4%;
   
 }

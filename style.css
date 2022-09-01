@@ -162,7 +162,7 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 7px;
   background: rgb(22,33,62);
-  background: linear-gradient(0deg, rgba(22,33,62,1) 0%, rgba(233,69,96,1) 93%);
+  background: linear-gradient(0deg, rgb(94, 96, 102) 0%, rgb(237, 234, 234) 93%);
 }
 
 .box-title-container {
@@ -174,12 +174,17 @@
 }
 
 .box-button {
-  border: 1px solid var(--white);
+  border: 2px solid var(--white);
   padding: 8px 20px;
   color: var(--white);
   border-radius: 20px;
   font-size: 20px;
   text-decoration: none;
+  transition: all 250ms ease-in-out;
+}
+
+.box-button:hover{
+  background: whitesmoke;
 }
 
 #sec-row-box-2{
