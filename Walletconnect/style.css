@@ -5,7 +5,7 @@
 }
 
 .background{
-  background: whitesmoke;
+  background: white;
  
 }
 .logo {
@@ -13,19 +13,19 @@
 }
 
 #nav-bg{
-  background: rgb(22,33,62);
+  background: whitesmoke;
   padding: 3% ;
 
 }
 
 #menu-item-1{
-  color: whitesmoke;
+  color: black;
 }
 #menu-item-2{
-  color: whitesmoke;
+  color: black;
 }
 #menu-item-3{
-  color: whitesmoke;
+  color: black;
 }
 
 
@@ -121,7 +121,7 @@
 
 /* Footer  */
 #footer {
-  background-color: white;
+  background-color: whitesmoke;
   padding: 4%;
   
 }

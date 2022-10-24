@@ -14,7 +14,7 @@
 }
 
 .background {
-  background: whitesmoke;
+  background: var(--white);
 }
 
 .head-container {
@@ -80,7 +80,7 @@
 
 .banner {
   background-image: linear-gradient(rgba(10, 10, 7, 0.7), rgba(10, 10, 7, 0.7)),
-    url(/images/The_other_side_of_the_coin_Blockchain_d1e1a82d78.jpg);
+    url(/images/blockchain-applications.jpeg);
   background-position: center;
   background-size: contain;
   padding: 5% 5%;
@@ -89,11 +89,8 @@
 .banner-inner-container {
   margin: 0% 15%;
   padding: 5% 5%;
-  border-radius: 5px;
-  border: 1px solid;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
 }
 
 .icon-container {
@@ -156,17 +153,19 @@
 }
 
 .box {
-  border: 1px solid;
+  
   margin: 8px;
   padding: 5% 7%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 7px;
-  background: rgb(22,33,62);
-  background-color: whitesmoke;
+  border-radius: 15px;
+ border: 10px solid whitesmoke;
+
+
 }
 
 .box-title-container {
   margin-top: 2em;
+  color: var(--black);
 }
 
 .box-button-container {
@@ -199,9 +198,8 @@
   padding: 10% 8%;
   text-align: center;
   margin-top: 7em;
-  background: rgb(22,33,62);
-  background: linear-gradient(0deg, rgba(22,33,62,1) 0%, rgba(233,69,96,1) 93%);
-  color: var(--white);
+  background: whitesmoke;
+  color: var(--black);
 }
 
 .footer-column-2{
@@ -212,7 +210,13 @@
 .footer-text-container{
     
   padding: 4%;
-  color: var(--white);
+  color: var(--black);
+  background: whitesmoke;
+}
+
+.coypright-wrap{
+  background: whitesmoke;
+  color: red;
 }
 
 
@@ -231,6 +235,10 @@
 
   .box-main-container {
     flex-direction: column;
+  }
+
+  .box{
+    padding: 15% 0%;
   }
 }
 

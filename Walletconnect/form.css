@@ -7,27 +7,23 @@
   border-radius: 25px;
   border: 1px solid ;
   font-size: 25;
-  background: rgb(22,33,62);
-  background: linear-gradient(0deg, rgba(22,33,62,1) 0%, rgba(233,69,96,1) 93%);
+  background: rgb(234, 230, 230);
+  
 }
 .validate-button {
   /* background-color: ; */
   border: 1px solid ;
   background: rgb(22,33,62);
-  background: linear-gradient(0deg, rgba(22,33,62,1) 0%, rgba(233,69,96,1) 93%);
+  background: whitesmoke;
 }
 .validate-button:hover {
-  background: rgb(22,33,62);
-  background: linear-gradient(0deg, rgba(22,33,62,1) 0%, rgba(233,69,96,1) 93%);
+  background: rgb(234, 230, 230);;
   transition: 1ms;
 }
 
 .ste-btn {
-  color: white;
-  /* background-color: brown !important; */
- 
-  background: rgb(22,33,62);
-  background: linear-gradient(0deg, rgba(22,33,62,1) 0%, rgba(233,69,96,1) 93%);
+  color: black;
+  background: rgb(234, 230, 230);
 }
 
 .ste-pill {
@@ -35,11 +31,11 @@
 }
 
 .ste-pill.active {
-  background: rgb(22,33,62);
-  background: linear-gradient(0deg, rgba(22,33,62,1) 0%, rgba(233,69,96,1) 93%);
+
+  background: rgb(234, 230, 230);
 
 }
 
 .ste-pill:not(.active) {
-  color: rgba(22,33,62,1);
+  background: rgb(234, 230, 230);
 }
